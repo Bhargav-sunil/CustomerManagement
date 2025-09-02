@@ -1,0 +1,39 @@
+.address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.address-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.address-details {
+  flex: 1;
+}
+
+.address-details p {
+  margin-bottom: 5px;
+}
+
+.address-actions {
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .address-card {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .address-actions {
+    margin-left: 0;
+    align-self: flex-end;
+  }
+}

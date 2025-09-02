@@ -1,0 +1,26 @@
+.customer-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-form label {
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.customer-form input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn-save {
+  background: #0d6efd;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
